@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniBrary - Online Library Management System</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">MiniBrary</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost:8080">Home</a></li>
+                    <li><a href="/books.html">Books</a></li>
+                    <li><a href="/profile.html">Profile</a></li>
+                    <li><a href="/signout.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to MiniBrary - Your Online Library</h2>
+        
+        <!-- Search Bar -->
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for books...">
+            <button type="button" id="search-button">Search</button>
+        </form>
+
+        <!-- Book Listings (Bookshelf-like Layout) -->
+        <div id="bookshelf" class="book-list">
+            <!-- Search Results will be displayed here -->
+            <h3>Search Results</h3>
+            <div id="search-results"></div>
+        </div>
+        
+        <!-- Featured Books listings will be displayed here -->
+        <div class="book">
+            <h3>Featured Books</h3>
+            <img src="/images/ToKillaMockingbird.jpg" alt="Book Cover">
+            <h3>To Kill a Mockingbird</h3>
+            <p>Harper Lee</p>
+            <img src="/images/SapiensABriefHistoryofHumankind.jpg" alt="Book Cover">
+            <h3>Sapiens: A Brief History of Humankind</h3>
+            <p>Yuval Noah Harari</p>
+            <img src="/images/TheGirlwiththeDragonTattoo.jpg" alt="Book Cover">
+            <h3>The Girl with the Dragon Tattoo</h3>
+            <p>Stieg Larsson</p>
+            <img src="/images/PrideandPrejudice.jpg" alt="Book Cover">
+            <h3>Pride and Prejudice</h3>
+            <p>Jane Austen</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MiniBrary - Online Library Management System</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

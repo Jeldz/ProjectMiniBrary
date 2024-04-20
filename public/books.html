@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniBrary - Books</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">MiniBrary</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost:8080">Home</a></li>
+                    <li><a href="/books.html">Books</a></li>
+                    <li><a href="/profile.html">Profile</a></li>
+                    <li><a href="/signout.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Explore Your MiniBrary</h2>
+
+        <!-- Genre List -->
+        <div class="genre-list">
+            <h3>Genres</h3>
+            <ul>
+                <li><a href="/fiction.html">Fiction</a></li>
+                <li><a href="/non-fiction.html">Non-Fiction</a></li>
+                <li><a href="/mystery.html">Mystery</a></li>
+                <li><a href="/romance.html">Romance</a></li>
+                <!-- Add more genres as needed -->
+            </ul>
+        </div>
+
+        <!-- Book Listings (Bookshelf-like Layout) -->
+            <h3>Our New Books</h3>
+            <!-- Book listings will be displayed here -->
+            <div id="bookshelf" class="book-list">
+                <div class="book">
+                    <img src="/images/TheCatcherintheRye.jpg" alt="Book Cover">
+                    <h3>The Catcher in the Rye</h3>
+                    <p>J.D. Salinger</p>
+                </div>
+            </div>
+
+            <div id="bookshelf" class="book-list">
+                <div class="book">
+                    <img src="/images/EducatedAMemoir.jpg" alt="Book Cover">
+                    <h3>Educated: A Memoir</h3>
+                    <p>Tara Westover</p>
+                </div>
+            </div>
+
+            <div id="bookshelf" class="book-list">
+                <div class="book">
+                    <img src="/images/MurderontheOrientExpress.jpg" alt="Book Cover">
+                    <h3>Murder on the Orient Express</h3>
+                    <p>Agatha Christie</p>
+                </div>
+            </div>
+
+            <div id="bookshelf" class="book-list">
+                <div class="book">
+                    <img src="/images/TheFaultinOurStars.jpg" alt="Book Cover">
+                    <h3>The Fault in Our Stars</h3>
+                    <p>John Green</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MiniBrary - Online Library Management System</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
